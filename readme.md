@@ -1,6 +1,8 @@
 # Front for training on pug(ex. jade) and sass
 with Yeoman, Gulp, Bower.
 
+![](screenshot.png)
+
 Commands to compile:
 ```sh
 npm install --global gulp-cli bower
