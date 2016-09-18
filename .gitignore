@@ -6,4 +6,6 @@ dist
 
 bower_components
 
+test
+
 test/bower_components
