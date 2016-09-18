@@ -1,0 +1,96 @@
+// Imports
+@import "buttons.scss";
+
+
+// Colors
+$black: #26272d;
+$blue: #267df4;
+
+// Fonts
+$Lato: 'Lato';
+$Varela: 'Varela Round';
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  max-width: 1600px;
+  max-height: 1000px;
+}
+
+.header {
+  display: flex;
+  flex-flow: column wrap;
+
+  width: 1600px;
+  height: 1000px;
+
+  background-image: url('/images/Photo.png');
+
+  .header-menu {
+    padding-top: 30px;
+    font-family: $Lato;
+    display: flex;
+    flex-flow: row nowrap;
+    section {
+      padding: 0px, 50px;
+
+      a {
+        padding-right: 40px;
+        text-decoration: none;
+        color: $black;
+
+        &:hover{
+          color: $blue;
+        }
+      }
+    }
+
+    .header-menu_1 {
+      padding-left: 150px;
+    }
+
+    .logo {
+      padding: 0px 230px;
+    }
+
+    .header-menu_2 {
+      font-family: $Lato;
+      padding-right: 150px;
+      a:first-child {
+        color: #9f9fa0;
+      }
+    }
+  }
+}
+
+.text {
+  width: 750px;
+
+  display: inline-flex;
+
+  flex-flow: column wrap;
+  align-self: center;
+
+  h1 {
+    font-family: $Varela;
+    font-size: 62px;
+  }
+
+  p {
+    font-family: $Lato;
+    font-size: 20px;
+  }
+
+  a {
+    padding-top: 10px;
+    align-self: center;
+    width: 250px;
+    }
+}
